@@ -14,7 +14,7 @@ type the following commands:
 ```
 install.packages("SIDAP_1.0.tar.gz", repos = NULL, type = "source")
 ```  
-2. Running this package is depended on several other R packages(listed above) which available through Bioconductor. You need to run the `SIDAP_firstRun' 
+2.Running this package is depended on several other R packages(listed above) which available through Bioconductor. You need to run the `SIDAP_firstRun' 
 function first before use. 
 ```
 library(sidap)
@@ -26,9 +26,9 @@ library(sidap)
 cytof_tsne_densvm_GUI()
 ```
 
-3. check the help page for more information about this package and the using of the workhorse function.
+3.Check the help pages for more information about this package and the using of the workhorse function.
               
-**NOTE**: This package is in the BETA stage of development, new features will continue to be added, please take note for change in this package.
+**NOTE**: This package is in the BETA stage of development, new features will continue to be added, please take note for changes in this package. Also this version is tested on windows only.
 
  
  
