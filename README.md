@@ -14,13 +14,14 @@ type the following commands:
 ```
 install.packages("SIDAP_1.0.tar.gz", repos = NULL, type = "source")
 ```  
-2.Running this package is depended on several other R packages(listed above) which available through Bioconductor. You need to run the `SIDAP_firstRun' 
-function first before use. 
+2.Running this package is depended on several other R packages(listed above) which available through Bioconductor. You need to install them first, or we provide a function `SIDAP_firstRun` 
+can help you do that automatically. 
 ```
 library(sidap)
 SIDAP_firstRun()
 ```
-Otherwise, if you don't want to bother with that, **sidap** provides a user friendly GUI for the workhorse function `cytof_tsne_densvm` in this package.
+Otherwise, if you don't want to bother with that, **sidap** provides a user friendly GUI to handle all these. Simply type in the command below, 
+the workhorse function `cytof_tsne_densvm` in this package will be launched in a GUI with informative instructions.
 ```
 library(sidap)
 cytof_tsne_densvm_GUI()
